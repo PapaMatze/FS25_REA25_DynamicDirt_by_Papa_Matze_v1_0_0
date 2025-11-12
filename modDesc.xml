@@ -43,6 +43,23 @@ Changelog 1.1.0.2
 - Die Textur der Wasserpfütze wurde aus der Mod-Datei gelöscht und der Mod verwendet jetzt die im Spielordner.
 
 </de>
+<fr> 
+L’objectif de ce mod est de rendre le jeu plus réaliste. Le but est d’en faire un mod universel.
+Ce mod prend en charge le multijoueur et les serveurs dédiés.
+
+Ce mod génère des flaques d’eau dans les zones basses, qui se remplissent lorsque le sol est humide.
+
+Changelog 1.1.0.0 :
+- Le niveau de l’eau n’est plus déterminé par l’humidité du sol.
+- La pluie augmente désormais le niveau de l’eau.
+- Le temps nuageux et ensoleillé fait baisser le niveau de l’eau ; des températures plus basses ralentissent ce processus.
+
+Changelog 1.1.0.1 :
+- Le niveau de l’eau est maintenant sauvegardé afin d’éviter qu’il ne soit réinitialisé après le chargement de la partie.
+
+Changelog 1.1.0.2 :
+- La texture des flaques d’eau a été supprimée du fichier du mod, celui-ci utilise désormais celle du dossier du jeu.
+</fr>
     </description>
 	<l10n>
 	</l10n>
