@@ -1,55 +1,39 @@
-<?xml version='1.0' encoding='utf-8'?>
-<modDesc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" descVersion="94" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<modDesc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         descVersion="94"
+         xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+
     <author>Papa_Matze</author>
-	<loadModDesc priority="999" /><version>1.0.3</version>
-	<title>REA25 Dynamic Dirt by Papa_Matze v1.0.0<en>REA25 Dynamic Dirt</en>
+    <loadModDesc priority="999" />
+    <version>1.0.7</version>
+
+    <title>
+        <en>REA25 Dynamic Dirt</en>
+        <de>REA25 Dynamic Dirt</de>
     </title>
+
     <description>
         <en>
-The goal of this mod is to make the game feel more realistic.
-The goal is to make the mod universal.
-This mod supports multiplayer and dedicated servers.
+Creates dynamic puddles and wet areas on all maps.
+Supports multiplayer and dedicated servers.
+        </en>
 
-This mod creates puddles in low places where water will fill up if ground is wet.
-
-Changelog 1.1.0.0:
-- Water does not use ground wetness to set water level.
-- Rain now increase level.
-- Cloudy and sunny weathers lowers water level, lower temperatures decrease speed.
-
-Changelog 1.1.0.1:
-- Water level is saved to avoid restart of water level after loading of game.
-
-Changelog 1.1.0.2
-- Water puddle texture is deleted from mod file and the mod now uses the on in the game folder.
-
-</en>
-<de>
-Das Ziel dieses Mods ist es, das Spiel realistischer zu gestalten.
-Das Ziel ist es, die Mod universell zu machen.
-Dieser Mod unterstützt Multiplayer und dedizierte Server.
-
-Dieser Mod erzeugt Pfützen an niedrigen Stellen, in denen sich das Wasser füllt, wenn der Boden nass ist.
-
-Changelog 1.1.0.0:
-- Der Wasserstand wird nicht mehr über die Bodenfeuchtigkeit bestimmt.
-- Regen erhöht jetzt den Pegel.
-- Bewölktes und sonniges Wetter senkt den Wasserstand, niedrigere Temperaturen verringern die Geschwindigkeit.
-
-Changelog 1.1.0.1:
-- Der Wasserstand wird gespeichert, um einen Neustart des Wasserstands nach dem Laden des Spiels zu vermeiden.
-
-Changelog 1.1.0.2
-- Die Textur der Wasserpfütze wurde aus der Mod-Datei gelöscht und der Mod verwendet jetzt die im Spielordner.
-
-</de>
+        <de>
+Erstellt dynamische Pfützen und nasse Bodenbereiche auf allen Karten.
+Unterstützt Multiplayer und dedizierte Server.
+        </de>
     </description>
-	<l10n>
-	</l10n>
+
+    <l10n></l10n>
+
     <iconFilename>icon_256.dds</iconFilename>
-	<multiplayer supported="true" />
+
+    <multiplayer supported="true" />
+
     <extraSourceFiles>
         <sourceFile filename="READynamicDirt.lua" />
     </extraSourceFiles>
+
     <license>MIT</license>
+    <date>22.11.2025</date>
 </modDesc>
